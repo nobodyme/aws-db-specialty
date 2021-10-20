@@ -1,0 +1,102 @@
+{
+  "main": {
+    "id": "35162fb4c97b998c",
+    "type": "split",
+    "children": [
+      {
+        "id": "8fc1dafd9bc48f64",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "9-CF.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "78354c445dc4df49",
+    "type": "split",
+    "children": [
+      {
+        "id": "59936de6772297ed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "850871602cf17b67",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "10c7ee2fa0b27a5f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "cf80ee20258cb7f4",
+    "type": "split",
+    "children": [
+      {
+        "id": "f7c4aa408d489284",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c930ac05d9777638",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "9-CF.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "8fc1dafd9bc48f64",
+  "lastOpenFiles": [
+    "9-CF.md",
+    "10-QLDB.md",
+    "11-Timeseries.md",
+    "8-GraphDB.md",
+    "7-Elastic search.md",
+    "6-Elastic cache.md",
+    "5-DMS.md",
+    "4-Redshift.md",
+    "3-Dynamo.md",
+    "2-Aurora.md"
+  ]
+}
