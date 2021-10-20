@@ -21,3 +21,4 @@
 - 15 minutes cooldown after a scale up operation and 310 second cooldown for subsequent cooldown, no cooldown for scaleup
 - Aurora Global tables, RTO < 1 minute, RPO < 1 second, 5 secondary read-only regions and 16 read replicas in each
 - Cannot stop aurora serverless, multi-master or global db or one that uses parallel query
+- Aurora Serverless DB cluser cant have a public IP, can only be accessed from within a VPC

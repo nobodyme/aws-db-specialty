@@ -35,6 +35,7 @@
 - For PostgreSQL DB instances, when the source DB instance for a cross-Region read replica is deleted, the replication status of the read replica is set to `terminated`. The read replica isn't promoted. You have to promote the read replica manually or delete it.
 - Create a new Option Group and configure SQLSERVER_BACKUP_RESTORE option.  Associate the option group with the DB instance. - to take native backup
 - gp2 - 16k iops, io1 - 64k, sc1 - 500, st1 - 250
+- Amazon RDS root certificates are available for download at https://s3.amazonaws.com/rds-downloads/rds-ca-2019-root.pem
 
 ## Delete an instance in the cluster
 
