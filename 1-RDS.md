@@ -1,7 +1,7 @@
 ## Some points that I forget
 - RDS also supports TDE (Transparent Data Encryption) for SQL Server (Enterprise Edition only) and Oracle DB instances. Might slightly affect DB performance if you use TDE and **encryption at rest** simultaneously
 - RDS offers only upto 5 read replicas, and 5 cross region read replicas
-- You cannot promote a replica to a standalone instance when backup is running
+- You cannot promote a replica to a standalone instance when backup is running on the replica
 - PITR is 5 minutes but RTO is longer incase of DR.
 - You can export log data from CloudWatch Logs to S3 by creating an export task in CloudWatch (create export-task CLI command)
 - Set log retention with parameter rds.log_retention_period for postgresql
@@ -13,7 +13,7 @@
 - You can't stop an Amazon RDS for SQL Server DB instance in a Multi-AZ configuration.
 - [Backups](https://aws.amazon.com/rds/faqs/) Automated backups are deleted when the DB instance is deleted. Only manually created DB Snapshots are retained after the DB Instance is deleted.
 - Migration of DB Instances from inside to outside VPC is not supported. For security reasons, a DB Snapshot of a DB Instance inside VPC cannot be restored to outside VPC. The same is true with “Restore to Point in Time” functionality.
-- MyISAM storage engine for RDS MySQL does not support automated backups, InnoDB and Aria engine support it.
+- MyISAM storage engine for RDS MySQL does not support automated backups, InnoDB and XtraDB engine support it. Aria, MyISAM doesnt support
 - 100 manual snapshots per Region
 - Can not copy RDS Snapshot to S3. Use **Export to S3** option
 
